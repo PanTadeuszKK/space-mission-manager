@@ -77,9 +77,3 @@ The registryNumber Java field retains the original registryNumer database column
 Thirteen JUnit 5 tests cover interval boundaries, status changes, duplicates, capacity, constructors, module ownership, equipment transfers, persistent reload/deletion, rollback after a database failure and concurrent assignment attempts.
 
 See [VERIFICATION.md](VERIFICATION.md) for environment-specific verification results.
-
-## Limitations and authorship
-
-The UI is in Polish and exposes assignment creation/removal. Other domain operations are currently available through Java APIs only. Authentication, production connection pooling, database migrations and scientific validation of danger scores are not implemented. Danger calculations are illustrative rules, not trained ML models.
-
-Before public distribution, document original authors and individual contributions and agree on a license. No ownership or license has been assumed during these changes.
